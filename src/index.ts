@@ -1,15 +1,7 @@
-import fastify from 'fastify';
+import server from './server';
 
-const server = fastify();
+const FASTIFY_PORT = Number(process.env.FASTIFY_PORT) || 3000;
 
-const start = async () => {
-  try {
-    await server.listen(3000);
-    console.log('listening on port 3000');
-  } catch (err) {
-    server.log.error(err);
-    process.exit();
-  }
-};
-
-start();
+server.listen(FASTIFY_PORT);
+// eslint-disable-next-line no-console
+console.log(`Server running on port ${FASTIFY_PORT}`);
