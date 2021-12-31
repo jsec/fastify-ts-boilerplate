@@ -1,12 +1,11 @@
-import { test } from 'tap'
-import { build } from '../helper'
+import { expect } from "chai";
 
-test('example is loaded', async (t) => {
-  const app = await build(t)
+describe("Example Route", () => {
+  it("should do a thing", () => {
+    expect(true).to.equal(true);
+  });
 
-  const res = await app.inject({
-    url: '/example'
-  })
-
-  t.equal(res.payload, 'this is an example')
-})
+  it("should not do a thing", () => {
+    expect(true).to.equal(false);
+  });
+});

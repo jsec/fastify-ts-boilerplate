@@ -1,11 +1,11 @@
-import { test } from 'tap'
-import Fastify from 'fastify'
-import Support from '../../src/plugins/support'
+import { expect } from 'chai';
 
-test('support works standalone', async (t) => {
-  const fastify = Fastify()
-  void fastify.register(Support)
-  await fastify.ready()
+describe('Support', () => {
+  it('should do a thing', () => {
+    expect(true).to.equal(true);
+  })
 
-  t.equal(fastify.someSupport(), 'hugs')
+  it('should do a thing', () => {
+    expect(true).to.equal(false);
+  })
 })
