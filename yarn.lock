@@ -29,6 +29,14 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fastify-decorators/simple-di@^4.0.0-next.1":
+  version "4.0.0-next.1"
+  resolved "https://registry.yarnpkg.com/@fastify-decorators/simple-di/-/simple-di-4.0.0-next.1.tgz#83987040a05725d6501df3136e8bd102a17cfabb"
+  integrity sha512-D4mMOL6ciaAhDACp8Q0LHsEsr8YRRxWiodeL1ShEI7i8NAvfL+wcZ3gyR/ouNJl7o3Acb9ye6sCRywZXtCYrng==
+  dependencies:
+    fastify-decorators "^4.0.0-next.1"
+    reflect-metadata "^0.1.13"
+
 "@fastify/ajv-compiler@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@fastify/ajv-compiler/-/ajv-compiler-1.1.0.tgz#5ce80b1fc8bebffc8c5ba428d5e392d0f9ed10a1"
@@ -1059,12 +1067,26 @@ fastify-cli@^2.14.0:
     split2 "^4.0.0"
     yargs-parser "^20.0.0"
 
+fastify-decorators@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/fastify-decorators/-/fastify-decorators-3.10.0.tgz#35451b6c9afa1168d2ce8ad8ebea9321c0c06e8f"
+  integrity sha512-73cXpN7U96yFuIk5Y468V/+VhXEmiRVlOkMys04JIvPMheG7eVQb17PZfJ9GhdwfI2jlKjoDWJ5+yW0dJAO5vA==
+  dependencies:
+    fastify-plugin "^2.0.0 || ^3.0.0"
+
+fastify-decorators@^4.0.0-next.1:
+  version "4.0.0-next.1"
+  resolved "https://registry.yarnpkg.com/fastify-decorators/-/fastify-decorators-4.0.0-next.1.tgz#1aa28812633f50d6bfc2cba5f370a9c215811c45"
+  integrity sha512-cARbULEo5nRoN5B/8Qk3L+IbQa6hGvls+JZK5FH5+a+C8XuAYJlpVHwMa2DUJIOa7dWlI/Y9m2EwukUf4/Fq0w==
+  dependencies:
+    fastify-plugin "^2.0.0 || ^3.0.0"
+
 fastify-error@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/fastify-error/-/fastify-error-0.3.1.tgz#8eb993e15e3cf57f0357fc452af9290f1c1278d2"
   integrity sha512-oCfpcsDndgnDVgiI7bwFKAun2dO+4h84vBlkWsWnz/OUK9Reff5UFoFl241xTiLeHWX/vU9zkDVXqYUxjOwHcQ==
 
-fastify-plugin@^3.0.0:
+"fastify-plugin@^2.0.0 || ^3.0.0", fastify-plugin@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.0.tgz#cf1b8c8098e3b5a7c8c30e6aeb06903370c054ca"
   integrity sha512-ZdCvKEEd92DNLps5n0v231Bha8bkz1DjnPP/aEz37rz/q42Z5JVLmgnqR4DYuNn3NXAO3IDCPyRvgvxtJ4Ym4w==
@@ -2173,6 +2195,11 @@ redeyed@~2.1.0:
   integrity sha1-iYS1gV2ZyyIEacme7v/jiRPmzAs=
   dependencies:
     esprima "~4.0.0"
+
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 regexpp@^3.2.0:
   version "3.2.0"

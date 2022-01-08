@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/jsec/fastify-ts-boilerplate#readme",
   "dependencies": {
+    "@fastify-decorators/simple-di": "^4.0.0-next.1",
     "fastify": "^3.0.0",
     "fastify-autoload": "^3.3.1",
     "fastify-cli": "^2.14.0",
+    "fastify-decorators": "^3.10.0",
     "fastify-plugin": "^3.0.0",
     "fastify-sensible": "^3.1.0"
   },
