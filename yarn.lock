@@ -1067,10 +1067,10 @@ fastify-cli@^2.14.0:
     split2 "^4.0.0"
     yargs-parser "^20.0.0"
 
-fastify-decorators@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/fastify-decorators/-/fastify-decorators-3.10.0.tgz#35451b6c9afa1168d2ce8ad8ebea9321c0c06e8f"
-  integrity sha512-73cXpN7U96yFuIk5Y468V/+VhXEmiRVlOkMys04JIvPMheG7eVQb17PZfJ9GhdwfI2jlKjoDWJ5+yW0dJAO5vA==
+fastify-decorators@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/fastify-decorators/-/fastify-decorators-3.11.0.tgz#1fc75ba36936860f360db0ae99ac02eb5c77b7fa"
+  integrity sha512-LHeSLiTPNQMd4urkBFuc5piJ6KIWJFOafAvK5CijL9LrhCbAw0Sn3CNtU/QiVf7E1K58K1gtuO3VYp6UZjDzmw==
   dependencies:
     fastify-plugin "^2.0.0 || ^3.0.0"
 
