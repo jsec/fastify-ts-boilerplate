@@ -1111,7 +1111,7 @@ fastify-plugin@^3.0.1:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-3.0.1.tgz#79e84c29f401020f38b524f59f2402103fd21ed2"
   integrity sha512-qKcDXmuZadJqdTm6vlCqioEbyewF60b/0LOFCcYN1B6BIZGlYJumWWOYs70SFYLDAH4YqdE1cxH/RKMG7rFxgA==
 
-fastify-sensible@^3.1.0:
+"fastify-sensible-deprecated@npm:fastify-sensible@3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/fastify-sensible/-/fastify-sensible-3.1.2.tgz#8b8672b4c55ca17a5ae267d5953b53c141b2a380"
   integrity sha512-fS8GeY6db3q38GzWOoZMggrw9yHOoXdHv1Pgnorvv18uDrmh1iL8gP9/cqdWzZRM1J3fYvcHsfV2t4BXQF2+sw==
@@ -1122,6 +1122,14 @@ fastify-sensible@^3.1.0:
     http-errors "^1.7.3"
     type-is "^1.6.18"
     vary "^1.1.2"
+
+fastify-sensible@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/fastify-sensible/-/fastify-sensible-3.2.0.tgz#55503b9824f8977d0196349f8a060e0a7d1dee56"
+  integrity sha512-Y6hW5fRviGUXf5r5xEuqfnX5Zz1UEam1nGCkFH62r1wgVrfNjY5zNhfgKA23+zO6AcrSW6PQN5vXj9sJ2SBQ2w==
+  dependencies:
+    fastify-sensible-deprecated "npm:fastify-sensible@3.1.2"
+    process-warning "^1.0.0"
 
 fastify-tsconfig@^1.0.1:
   version "1.0.1"
